@@ -1,0 +1,456 @@
+2023-11-01 11:07:17,795 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Starting GrapplerEnhancementApplication using Java 17.0.7 with PID 10244 (C:\Users\ASUS\IdeaProjects\Grappler-Enhancement\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\Grappler-Enhancement)
+2023-11-01 11:07:17,805 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 11:07:17,916 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01 11:07:17,917 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01 11:07:19,691 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-01 11:07:19,839 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 134 ms. Found 7 JPA repository interfaces.
+2023-11-01 11:07:21,083 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-11-01 11:07:21,111 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 11:07:21,112 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 11:07:21,307 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 11:07:21,307 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3389 ms
+2023-11-01 11:07:21,680 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 11:07:21,850 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-01 11:07:21,857 [INFO] org.hibernate.cfg.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-11-01 11:07:22,148 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 11:07:22,391 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-01 11:07:22,420 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-11-01 11:07:22,806 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c047493
+2023-11-01 11:07:22,808 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-11-01 11:07:23,238 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 11:07:24,023 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 11:07:24,201 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 11:07:24,586 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-01 11:07:26,039 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-01 11:07:27,098 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3a29710, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@730ff48f, org.springframework.security.web.context.SecurityContextHolderFilter@1a6de252, org.springframework.security.web.header.HeaderWriterFilter@4e739d1b, org.springframework.security.web.authentication.logout.LogoutFilter@16b98765, com.grapplermodule1.GrapplerEnhancement.cerebrus.jwtauthentication.JwtAuthenticationFilter@32ee68b7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@86f1655, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57cb3ae9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b3ed4e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@de61b47, org.springframework.security.web.session.SessionManagementFilter@69c2850f, org.springframework.security.web.access.ExceptionTranslationFilter@443b3c51, org.springframework.security.web.access.intercept.AuthorizationFilter@46dd5d1a]
+2023-11-01 11:07:27,561 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-01 11:07:27,608 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-01 11:07:27,620 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Started GrapplerEnhancementApplication in 10.53 seconds (process running for 11.517)
+2023-11-01 11:07:58,571 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 11:07:58,571 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-01 11:07:58,571 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-11-01 11:07:58,698 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 2f842907-134d-458c-bd35-054c2410f56b
+2023-11-01 11:11:40,510 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 3e6230f7-1685-4538-b87c-2011d6a1358a
+2023-11-01 11:11:40,579 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] UUID 3e6230f7-1685-4538-b87c-2011d6a1358a Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 11:11:40,582 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Invalid User Name or Password!] with root cause
+java.lang.RuntimeException: Invalid User Name or Password!
+	at com.grapplermodule1.GrapplerEnhancement.controllers.AuthController.doAuthenticate(AuthController.java:68)
+	at com.grapplermodule1.GrapplerEnhancement.controllers.AuthController.login(AuthController.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:168)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at com.grapplermodule1.GrapplerEnhancement.cerebrus.jwtauthentication.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-11-01 11:33:45,594 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 11:33:45,597 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-01 11:33:45,605 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-01 11:33:51,439 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Starting GrapplerEnhancementApplication using Java 17.0.7 with PID 412 (C:\Users\ASUS\IdeaProjects\Grappler-Enhancement\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\Grappler-Enhancement)
+2023-11-01 11:33:51,441 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 11:33:51,517 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01 11:33:51,518 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01 11:33:52,583 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-01 11:33:52,693 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 100 ms. Found 7 JPA repository interfaces.
+2023-11-01 11:33:53,697 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-11-01 11:33:53,715 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 11:33:53,715 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 11:33:53,839 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 11:33:53,840 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2322 ms
+2023-11-01 11:33:54,132 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 11:33:54,250 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-01 11:33:54,255 [INFO] org.hibernate.cfg.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-11-01 11:33:54,493 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 11:33:54,659 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-01 11:33:54,684 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-11-01 11:33:54,978 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f100ee0
+2023-11-01 11:33:54,982 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-11-01 11:33:55,363 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 11:33:56,169 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 11:33:56,313 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 11:33:56,720 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-01 11:33:58,052 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-01 11:33:59,356 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d8802bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2bb52a65, org.springframework.security.web.context.SecurityContextHolderFilter@4e1ae83, org.springframework.security.web.header.HeaderWriterFilter@5696c1, org.springframework.security.web.authentication.logout.LogoutFilter@630187ca, com.grapplermodule1.GrapplerEnhancement.cerebrus.jwtauthentication.JwtAuthenticationFilter@3726a2cd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@254e74b5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b4f738e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@512d015c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c5a5efd, org.springframework.security.web.session.SessionManagementFilter@6c9824bb, org.springframework.security.web.access.ExceptionTranslationFilter@51df1260, org.springframework.security.web.access.intercept.AuthorizationFilter@55c178cd]
+2023-11-01 11:33:59,850 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-01 11:33:59,881 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-01 11:33:59,893 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Started GrapplerEnhancementApplication in 8.958 seconds (process running for 9.589)
+2023-11-01 11:36:05,420 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 11:36:05,420 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-01 11:36:05,422 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-11-01 11:36:05,551 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 7624803e-7359-4420-9b46-866a9691a19f
+2023-11-01 11:36:05,809 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID 7624803e-7359-4420-9b46-866a9691a19f Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 11:40:35,441 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m40s304ms630µs200ns).
+2023-11-01 11:58:41,255 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID 6ebcecf7-643b-4ab6-899c-1e9b508db9b7
+2023-11-01 11:58:41,330 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID 6ebcecf7-643b-4ab6-899c-1e9b508db9b7 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:00:35,479 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID c945e9ec-4fa9-4afb-a792-f24944a071c4
+2023-11-01 12:00:35,554 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID c945e9ec-4fa9-4afb-a792-f24944a071c4 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:02:32,669 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 6cf6a731-8984-480d-94db-ddb413ff7510
+2023-11-01 12:02:32,751 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] UUID 6cf6a731-8984-480d-94db-ddb413ff7510 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:03:05,418 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 0cd9ee0b-bc10-4927-8a7f-f54e2c825fba
+2023-11-01 12:03:21,502 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 6dfb189d-ec51-4e4f-971d-2b44182844a7
+2023-11-01 12:03:40,166 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID e51326ed-42a3-4f5d-b652-fba6d43db6d2
+2023-11-01 12:03:47,685 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 173f80c7-0bac-44ac-92c7-06cd52e27318
+2023-11-01 12:04:01,495 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 552e9dfc-b41c-4360-910d-3cda20a3cbb4
+2023-11-01 12:07:29,519 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID c6c9c7ce-0046-4280-be56-7ca0801697ea
+2023-11-01 12:07:29,597 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] UUID c6c9c7ce-0046-4280-be56-7ca0801697ea Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:07:39,350 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 7b9d36ea-09a9-4621-9fff-fa74dfbeba73
+2023-11-01 12:07:50,218 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 3a569c5f-7564-4baf-94ae-d5a69ca408ba
+2023-11-01 12:08:12,290 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] Auth Controller Login API Called, UUID 43ac0b79-6bce-4a74-8a39-025e56f81875
+2023-11-01 12:08:41,429 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID 03b31235-c243-4668-beb0-c40d8e228140
+2023-11-01 12:09:43,595 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 17b4c4f6-d09c-404d-a046-12e8b032c509
+2023-11-01 12:09:43,664 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID 17b4c4f6-d09c-404d-a046-12e8b032c509 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:10:25,975 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID d9491f59-2c68-4838-8be8-bafcad457daf
+2023-11-01 12:10:26,045 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID d9491f59-2c68-4838-8be8-bafcad457daf Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:12:19,270 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID cce0f0a0-c28b-47ea-9d40-62fa064e613c
+2023-11-01 12:12:19,341 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID cce0f0a0-c28b-47ea-9d40-62fa064e613c Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:20:13,113 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 90c2027d-0fc6-49b0-a298-67b533bb80c9
+2023-11-01 12:20:13,169 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] UUID 90c2027d-0fc6-49b0-a298-67b533bb80c9 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:20:22,121 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 8558a184-7a21-4e71-872c-e7a5eb592d5e
+2023-11-01 12:20:22,175 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID 8558a184-7a21-4e71-872c-e7a5eb592d5e Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:20:32,472 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID c877adf7-7acc-4541-bef2-df530d603601
+2023-11-01 12:20:57,107 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID b86be83b-d762-469a-a992-3eaad618ef6d
+2023-11-01 12:20:57,168 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID b86be83b-d762-469a-a992-3eaad618ef6d Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:21:03,869 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID daeec177-a7cc-45ed-8de0-6a0097c8087f
+2023-11-01 12:24:41,076 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID f220efee-7a07-4419-9e3c-a9bc259dc2dc
+2023-11-01 12:24:41,144 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] UUID f220efee-7a07-4419-9e3c-a9bc259dc2dc Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:25:18,076 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID 5636549f-0227-4614-a482-c0aa422744e5
+2023-11-01 12:25:18,143 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] UUID 5636549f-0227-4614-a482-c0aa422744e5 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:26:06,386 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 309f656f-f6b4-4837-aa94-400a184d619f
+2023-11-01 12:29:34,454 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID d14ba37e-acc6-406b-997c-1b6aeddd674b
+2023-11-01 12:29:34,520 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID d14ba37e-acc6-406b-997c-1b6aeddd674b Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:43:12,061 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 79816e21-5e58-42c9-85e9-277d5d699bd5
+2023-11-01 12:43:12,119 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] UUID 79816e21-5e58-42c9-85e9-277d5d699bd5 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:44:12,064 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 7c4eca26-51d7-432d-b26c-2c61f53ea830
+2023-11-01 12:44:12,131 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID 7c4eca26-51d7-432d-b26c-2c61f53ea830 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:44:50,364 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID d799cd39-7040-4892-8ee5-2ef0570b5eb1
+2023-11-01 12:44:50,429 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID d799cd39-7040-4892-8ee5-2ef0570b5eb1 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 12:45:32,436 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID cb590a39-30ae-4ecc-b689-9cbb99330824
+2023-11-01 12:45:32,505 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID cb590a39-30ae-4ecc-b689-9cbb99330824 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 13:06:55,881 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m49s577ms428µs500ns).
+2023-11-01 13:16:49,195 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m53s254ms806µs301ns).
+2023-11-01 13:17:55,879 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID c31ae33b-b121-4545-96c2-ae8821bb6689
+2023-11-01 13:17:55,944 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID c31ae33b-b121-4545-96c2-ae8821bb6689 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 13:55:38,059 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m18s713ms594µs300ns).
+2023-11-01 13:57:49,590 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 2a5cbf71-c267-4b88-96cf-93633cc96ed3
+2023-11-01 13:57:49,668 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] UUID 2a5cbf71-c267-4b88-96cf-93633cc96ed3 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 13:57:56,579 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID db897ce7-c1d9-4ca4-80e7-a7b12268d443
+2023-11-01 13:57:56,647 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID db897ce7-c1d9-4ca4-80e7-a7b12268d443 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 13:58:04,293 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 23110b77-8c00-4d28-99ed-790105e113e2
+2023-11-01 13:58:04,361 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID 23110b77-8c00-4d28-99ed-790105e113e2 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 13:58:36,780 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID 65486eec-f0ca-4d33-8af1-285ffed50060
+2023-11-01 13:58:36,840 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID 65486eec-f0ca-4d33-8af1-285ffed50060 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 13:59:15,867 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 364c60fc-32ed-4fb6-89bb-d7ead571b50d
+2023-11-01 14:00:17,751 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID 8507a5c5-0d4d-45ac-aba0-9343f365ad06
+2023-11-01 14:00:17,813 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] UUID 8507a5c5-0d4d-45ac-aba0-9343f365ad06 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:00:23,444 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID 9fc445bb-6fb4-4c45-959d-8da7f6795896
+2023-11-01 14:04:17,689 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID fecf8979-90ca-4071-ae9f-98d71e32ac5a
+2023-11-01 14:06:14,030 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] Auth Controller Login API Called, UUID 4e59d1e5-777c-4f6b-812a-982f7e310d9b
+2023-11-01 14:06:24,116 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID a86d6487-7a64-4b42-a850-7bef4a8c30ed
+2023-11-01 14:06:24,183 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] UUID a86d6487-7a64-4b42-a850-7bef4a8c30ed Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:25,014 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 29ef0833-b716-4d19-9eaa-7c734907b956
+2023-11-01 14:06:25,079 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID 29ef0833-b716-4d19-9eaa-7c734907b956 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:25,215 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID ab888540-7f4b-4001-99a7-4fb2cafbcac6
+2023-11-01 14:06:25,281 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] UUID ab888540-7f4b-4001-99a7-4fb2cafbcac6 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:25,392 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 6f14114d-67bf-4947-9912-6b87f3f1b2ad
+2023-11-01 14:06:25,454 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID 6f14114d-67bf-4947-9912-6b87f3f1b2ad Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:32,851 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID 92b0ddba-f55b-48cb-a7f8-4faff83c9f9b
+2023-11-01 14:06:32,912 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID 92b0ddba-f55b-48cb-a7f8-4faff83c9f9b Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:33,053 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 779b719c-22d8-44a8-a50a-ae01319017fc
+2023-11-01 14:06:33,120 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] UUID 779b719c-22d8-44a8-a50a-ae01319017fc Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:33,242 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 0acae7a8-46a9-4eee-ac82-89ef315134a1
+2023-11-01 14:06:33,308 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID 0acae7a8-46a9-4eee-ac82-89ef315134a1 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:33,429 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] Auth Controller Login API Called, UUID 32da906b-53f6-4204-9047-54a67e4a7f92
+2023-11-01 14:06:33,486 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] UUID 32da906b-53f6-4204-9047-54a67e4a7f92 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:39,463 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID 7214f9c4-9f21-4d7a-8b14-03af9a8a5dc3
+2023-11-01 14:06:39,529 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] UUID 7214f9c4-9f21-4d7a-8b14-03af9a8a5dc3 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:06:39,652 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID d3a7d505-634d-4cac-aa74-aacab5fe64fd
+2023-11-01 14:06:39,715 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID d3a7d505-634d-4cac-aa74-aacab5fe64fd Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:07:44,951 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 1cdf7f0a-b4a2-4b6d-b7b4-e16a10b2b317
+2023-11-01 14:07:45,015 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID 1cdf7f0a-b4a2-4b6d-b7b4-e16a10b2b317 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:07:46,571 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID c140f538-e63b-473a-b6e9-8bed62cc5889
+2023-11-01 14:07:46,638 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] UUID c140f538-e63b-473a-b6e9-8bed62cc5889 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:07:46,779 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID 82cf3cf5-b2e8-4890-95e6-790f7ba81e4f
+2023-11-01 14:07:46,848 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID 82cf3cf5-b2e8-4890-95e6-790f7ba81e4f Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:07:46,979 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 5a9d41f4-c180-49b9-a14f-c2fb52034bcb
+2023-11-01 14:07:47,042 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] UUID 5a9d41f4-c180-49b9-a14f-c2fb52034bcb Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:07:47,172 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID cff0864e-9eae-4ef7-b78a-a8248734dbf4
+2023-11-01 14:07:47,237 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID cff0864e-9eae-4ef7-b78a-a8248734dbf4 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:08:10,566 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID a1d1528b-bdf2-44a0-a8e8-1250ecab5a48
+2023-11-01 14:08:10,622 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] UUID a1d1528b-bdf2-44a0-a8e8-1250ecab5a48 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:10:07,465 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID aa803974-6547-4e32-97a3-5415b673f4ef
+2023-11-01 14:10:07,533 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID aa803974-6547-4e32-97a3-5415b673f4ef Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:10:14,194 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID f20a3392-0310-45cf-b35b-28e6e51c3b1a
+2023-11-01 14:10:29,501 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID ee0bc616-cef1-4cf0-8854-9b577634368a
+2023-11-01 14:10:29,561 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID ee0bc616-cef1-4cf0-8854-9b577634368a Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:10:35,554 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 350033b1-c7bb-4bbd-a430-bdc6eace0fc0
+2023-11-01 14:10:35,615 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID 350033b1-c7bb-4bbd-a430-bdc6eace0fc0 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:10:42,441 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 01e19383-3f27-417b-9946-7cfddc26f7f0
+2023-11-01 14:16:47,092 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID c7061057-433b-41c8-b256-b2ba1dba3fc6
+2023-11-01 14:16:47,158 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] UUID c7061057-433b-41c8-b256-b2ba1dba3fc6 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 14:55:19,955 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 8255d656-8a92-48fd-b0c3-c2be50945e98
+2023-11-01 15:02:05,204 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 5686f87e-262b-4a82-8f1f-e8f9fc6d6caf
+2023-11-01 15:02:32,823 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 0f3afd1a-a731-4902-af42-bc13eac82cb4
+2023-11-01 15:04:37,142 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID 697ba279-fbd5-418f-9c3d-991b89ca47df
+2023-11-01 15:04:37,213 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] UUID 697ba279-fbd5-418f-9c3d-991b89ca47df Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 15:04:58,796 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 6a484305-9b67-4b4d-9c11-b1278ae82d8f
+2023-11-01 15:05:09,201 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 252a3065-58f5-4682-b0e1-fed5a6ad0fc8
+2023-11-01 15:50:12,971 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m4s93ms463µs900ns).
+2023-11-01 15:51:02,375 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 0d67ef9e-21d8-4a5a-ad9f-faa02924fa37
+2023-11-01 15:51:57,081 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID b4e7e3e2-3592-4126-afdd-97401fd3ff8d
+2023-11-01 15:51:57,137 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID b4e7e3e2-3592-4126-afdd-97401fd3ff8d Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 15:52:06,091 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 23dea1e2-1f01-42e5-a42f-0cf3781c9ac1
+2023-11-01 15:55:38,898 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 33704585-cd55-49ac-b810-42e05c0c67a6
+2023-11-01 15:55:38,958 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] UUID 33704585-cd55-49ac-b810-42e05c0c67a6 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 15:55:57,102 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] Auth Controller Login API Called, UUID ba89ee65-aadb-4f71-b108-f9a5933444c9
+2023-11-01 15:57:08,359 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 0eecbc77-2004-4503-8acf-513df62a1a4a
+2023-11-01 15:57:08,415 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID 0eecbc77-2004-4503-8acf-513df62a1a4a Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 15:57:15,823 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 1f7a6629-b784-451e-a0bf-9e6e65571857
+2023-11-01 15:57:54,216 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID 88e15223-63a8-4239-a955-ecda055b3530
+2023-11-01 15:57:54,267 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID 88e15223-63a8-4239-a955-ecda055b3530 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 15:58:01,158 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID be279982-7949-47a3-bce9-f0f6a8d83719
+2023-11-01 16:00:16,645 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID f2a71169-99de-43e7-8522-58693165345a
+2023-11-01 16:00:16,706 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] UUID f2a71169-99de-43e7-8522-58693165345a Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:00:28,091 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID 9b0d1f36-df16-4acb-9081-9e1bbb78ba15
+2023-11-01 16:02:08,340 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID f7255e24-baba-445d-8abf-5d6dc20ad063
+2023-11-01 16:02:08,394 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] UUID f7255e24-baba-445d-8abf-5d6dc20ad063 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:02:59,059 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 0e3cd138-6ddc-4451-852c-c15e398c32ac
+2023-11-01 16:02:59,116 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] UUID 0e3cd138-6ddc-4451-852c-c15e398c32ac Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:03:03,113 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] Auth Controller Login API Called, UUID 41cfd61b-1e0c-435d-8a60-376ceb28ff4c
+2023-11-01 16:03:03,170 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] UUID 41cfd61b-1e0c-435d-8a60-376ceb28ff4c Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:03:19,724 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-9] Auth Controller Login API Called, UUID 6d9553ba-d422-4a15-a1eb-79a15415ab97
+2023-11-01 16:04:09,818 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] Auth Controller Login API Called, UUID cca5cb7f-7783-460d-b04d-dd85ba47453e
+2023-11-01 16:04:09,881 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-1] UUID cca5cb7f-7783-460d-b04d-dd85ba47453e Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:06:11,856 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 35e0f4b2-f5b0-4141-98df-7fd88f961463
+2023-11-01 16:06:11,967 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] UUID 35e0f4b2-f5b0-4141-98df-7fd88f961463 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:06:21,880 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 8948f1c8-5c00-49ce-8975-829912dfe458
+2023-11-01 16:08:23,305 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] Auth Controller Login API Called, UUID 5c42e63f-3834-474a-a85b-4de969c48645
+2023-11-01 16:08:23,416 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-8] UUID 5c42e63f-3834-474a-a85b-4de969c48645 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:13:05,564 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID b39144c3-a74f-4fe6-a58e-c0ec15487d92
+2023-11-01 16:13:05,683 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID b39144c3-a74f-4fe6-a58e-c0ec15487d92 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:18:22,316 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID fa60d76b-2126-4f27-8153-de9b5c068539
+2023-11-01 16:18:22,418 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] UUID fa60d76b-2126-4f27-8153-de9b5c068539 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 16:33:23,651 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 16:33:23,658 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-01 16:33:23,673 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-01 17:55:56,602 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Starting GrapplerEnhancementApplication using Java 17.0.7 with PID 24800 (C:\Users\ASUS\IdeaProjects\Grappler-Enhancement\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\Grappler-Enhancement)
+2023-11-01 17:55:56,606 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 17:55:56,685 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01 17:55:56,686 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01 17:55:57,861 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-01 17:55:57,996 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 117 ms. Found 7 JPA repository interfaces.
+2023-11-01 17:55:59,060 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-11-01 17:55:59,089 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 17:55:59,090 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 17:55:59,258 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 17:55:59,259 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2571 ms
+2023-11-01 17:55:59,672 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 17:55:59,795 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-01 17:55:59,802 [INFO] org.hibernate.cfg.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-11-01 17:56:00,098 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 17:56:00,283 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-01 17:56:00,311 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-11-01 17:56:00,637 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fceb334
+2023-11-01 17:56:00,639 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-11-01 17:56:01,053 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 17:56:01,948 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 17:56:02,093 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 17:56:02,413 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-01 17:56:03,660 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-01 17:56:04,707 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ccd4744, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b95e6ae, org.springframework.security.web.context.SecurityContextHolderFilter@4ce8fb3d, org.springframework.security.web.header.HeaderWriterFilter@69a52042, org.springframework.security.web.authentication.logout.LogoutFilter@6b3ed4e9, com.grapplermodule1.GrapplerEnhancement.cerebrus.jwtauthentication.JwtAuthenticationFilter@11d48841, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2c577300, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75aad2f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e49ed0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d3b9e45, org.springframework.security.web.session.SessionManagementFilter@193276b6, org.springframework.security.web.access.ExceptionTranslationFilter@5970e36d, org.springframework.security.web.access.intercept.AuthorizationFilter@6db884ee]
+2023-11-01 17:56:05,184 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-01 17:56:05,234 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-01 17:56:05,246 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Started GrapplerEnhancementApplication in 9.3 seconds (process running for 10.051)
+2023-11-01 18:16:54,289 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 18:16:54,290 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-01 18:16:54,291 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-11-01 18:16:54,397 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-2] Auth Controller Login API Called, UUID 9586fb08-7cae-4844-aeb3-ad170430fd84
+2023-11-01 18:48:11,683 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m41s118ms568µs100ns).
+2023-11-01 18:50:47,653 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-5] Auth Controller Login API Called, UUID 20d059ae-e45d-4b46-b478-02b7da97cfcc
+2023-11-01 18:51:29,830 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-7] Auth Controller Login API Called, UUID fe65f401-8131-4eb8-93b2-4444a6edfc8e
+2023-11-01 18:54:39,110 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 729782da-9acd-43a0-90e9-a5d6ba82b433
+2023-11-01 18:59:02,455 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 77e69831-4762-488e-bc1c-3f57a0abe872
+2023-11-01 19:02:36,276 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-6] Auth Controller Login API Called, UUID 49707da6-9df5-4a87-b0aa-c7ca9950ca54
+2023-11-01 19:07:36,167 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 19:07:36,175 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-01 19:07:36,183 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-01 19:07:40,398 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Starting GrapplerEnhancementApplication using Java 17.0.7 with PID 22456 (C:\Users\ASUS\IdeaProjects\Grappler-Enhancement\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\Grappler-Enhancement)
+2023-11-01 19:07:40,400 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-11-01 19:07:40,470 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01 19:07:40,470 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01 19:07:41,509 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-01 19:07:41,640 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 119 ms. Found 7 JPA repository interfaces.
+2023-11-01 19:07:42,665 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-11-01 19:07:42,687 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-11-01 19:07:42,688 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 19:07:42,831 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-11-01 19:07:42,832 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2360 ms
+2023-11-01 19:07:43,150 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-01 19:07:43,270 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-01 19:07:43,276 [INFO] org.hibernate.cfg.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-11-01 19:07:43,545 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 19:07:43,737 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-01 19:07:43,770 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-11-01 19:07:44,084 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@438a87d5
+2023-11-01 19:07:44,089 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-11-01 19:07:44,468 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-11-01 19:07:45,239 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-01 19:07:45,381 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 19:07:45,744 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-01 19:07:47,063 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-01 19:07:48,217 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ff2f542, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@577e3f04, org.springframework.security.web.context.SecurityContextHolderFilter@4682138, org.springframework.security.web.header.HeaderWriterFilter@75aad2f7, org.springframework.security.web.authentication.logout.LogoutFilter@24701c7f, com.grapplermodule1.GrapplerEnhancement.cerebrus.jwtauthentication.JwtAuthenticationFilter@37ccf006, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@55ebadfd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a35a483, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26c4c637, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e9b1e9b, org.springframework.security.web.session.SessionManagementFilter@48abb87c, org.springframework.security.web.access.ExceptionTranslationFilter@4ce8fb3d, org.springframework.security.web.access.intercept.AuthorizationFilter@6ccd4744]
+2023-11-01 19:07:48,740 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-11-01 19:07:48,785 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-01 19:07:48,800 [INFO] com.grapplermodule1.GrapplerEnhancement.GrapplerEnhancementApplication [restartedMain] Started GrapplerEnhancementApplication in 8.918 seconds (process running for 9.535)
+2023-11-01 19:08:50,883 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-01 19:08:50,885 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-11-01 19:08:50,886 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2023-11-01 19:08:50,932 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get All Teams API Called, UUID 4522f25d-8c35-4692-b84b-2fc1844dd430
+2023-11-01 19:08:50,932 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get All Teams Service Called
+2023-11-01 19:08:51,005 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,020 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:08:51,022 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,025 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:08:51,026 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,029 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:08:51,029 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,031 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,034 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:08:51,034 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,039 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:08:51,039 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:08:51,041 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:08:51,041 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-3] Get All Teams API Returning Teams in ResponseEntity, UUID 4522f25d-8c35-4692-b84b-2fc1844dd430
+2023-11-01 19:09:07,599 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-2] Add New Member API Called, UUID d83adfb5-877a-424a-a54e-8dc68a1707cf
+2023-11-01 19:09:07,599 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-2] Add Team Member Service Called
+2023-11-01 19:09:14,686 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get All Teams API Called, UUID 319c91ce-fce7-4ff5-89a3-c88ef613d18f
+2023-11-01 19:09:14,686 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get All Teams Service Called
+2023-11-01 19:09:14,689 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,691 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:09:14,692 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,694 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:09:14,694 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,696 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:09:14,696 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,698 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,699 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:09:14,700 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,703 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:09:14,703 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id Called in Hierarchy Service
+2023-11-01 19:09:14,705 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get Team Member By Id returning List of TeamMemberDTO
+2023-11-01 19:09:14,705 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-4] Get All Teams API Returning Teams in ResponseEntity, UUID 319c91ce-fce7-4ff5-89a3-c88ef613d18f
+2023-11-01 19:09:30,616 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-5] Add New Member API Called, UUID 8bbfe9e8-1386-46a1-a6b7-f711b9e2b1d9
+2023-11-01 19:09:30,617 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-5] Add Team Member Service Called
+2023-11-01 19:09:30,627 [ERROR] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-5] Add Team Member Service throws TeamNotFoundException
+2023-11-01 19:09:30,628 [ERROR] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-5] Exception In Add Team Member Exception Team Not Found With ID : 100
+2023-11-01 19:09:30,628 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-5] UUID 8bbfe9e8-1386-46a1-a6b7-f711b9e2b1d9 TeamNotFoundException In Add New Member API, Exception Team Not Found With ID : 100
+2023-11-01 19:09:40,943 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-6] Add New Member API Called, UUID b9dd50a4-b069-4cc6-ae9d-6e4083803b89
+2023-11-01 19:09:40,943 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-6] Add Team Member Service Called
+2023-11-01 19:09:40,955 [ERROR] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-6] Add Team Member Service throws UserNotFoundException
+2023-11-01 19:09:40,955 [ERROR] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-6] Exception In Add Team Member Exception User Not Found With ID : 464
+2023-11-01 19:09:40,955 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-6] UUID b9dd50a4-b069-4cc6-ae9d-6e4083803b89 UserNotFoundException In Add New Member API, Exception User Not Found With ID : 464
+2023-11-01 19:09:45,662 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-7] Add New Member API Called, UUID 6d599883-4c27-46eb-88f7-3315645c31d7
+2023-11-01 19:09:45,662 [INFO] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-7] Add Team Member Service Called
+2023-11-01 19:09:45,679 [ERROR] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-7] Add Team Member Service throws MemberAlreadyPresentException
+2023-11-01 19:09:45,680 [ERROR] com.grapplermodule1.GrapplerEnhancement.service.HierarchyService [http-nio-8080-exec-7] Exception In Add Team Member Exception Member Already Present In Same Team.
+2023-11-01 19:09:45,680 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.HierarchyController [http-nio-8080-exec-7] UUID 6d599883-4c27-46eb-88f7-3315645c31d7 MemberAlreadyPresentException In Add New Member API, Exception Member Already Present In Same Team.
+2023-11-01 19:16:20,393 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] Auth Controller Login API Called, UUID 9c58db9b-7252-47b9-b6b3-cf59eecc4264
+2023-11-01 19:16:20,524 [ERROR] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-10] UUID 9c58db9b-7252-47b9-b6b3-cf59eecc4264 Exception In Auth Controller Login API Exception Invalid User Name or Password!
+2023-11-01 19:16:28,213 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-3] Auth Controller Login API Called, UUID 74fae713-fd1f-4ff0-b081-eb9c8d319f15
+2023-11-01 19:16:40,348 [INFO] com.grapplermodule1.GrapplerEnhancement.controllers.AuthController [http-nio-8080-exec-4] Auth Controller Login API Called, UUID 6c47a45c-2d76-4ee7-9e2b-c810658d16fe
+2023-11-01 19:21:03,116 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-01 19:21:03,116 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-01 19:21:03,123 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
